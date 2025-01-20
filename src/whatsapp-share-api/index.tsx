@@ -4,6 +4,7 @@ const WhatsappShareApi = () => {
   const [message, setMessage] = useState("This is the message being sent");
   return (
     <div>
+      <h1>WhatsApp Share API</h1>
       <div>
         <label htmlFor="message">Message being sent.</label>
         <input
